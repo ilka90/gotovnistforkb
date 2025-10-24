@@ -1,8 +1,7 @@
 from django.shortcuts import render
-from django.http import HttpResponse
 
 def index(request):
-    return HttpResponse('<h4> Testing main page</h4>')
+    return render(request, 'main_page/index.html')
 
 def about(request):
-    return HttpResponse('<h4> About main page</h4>')
+    return render(request, 'main_page/about.html')
