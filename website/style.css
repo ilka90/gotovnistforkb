@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    background-color: rgba(231, 213, 193);
+}
+.top-navigation{
+    border: 5px solid rgb(64, 64, 64);
+    width: 1895px;
+    height: 90px;
+    color:  rgb(64, 64, 64);
+    background-color:  rgba(64, 64, 64);
+    float: top
+}
+.navigation{
+    border: 5px solid rgb(64, 64, 64);
+    width: 90px;
+    height: 1300px;
+    color:  rgb(64, 64, 64);;
+    float: left;
+    background-color:  rgba(64, 64, 64);
+}
+#Logo{
+    margin: 0px;
+}
+h1{
+    margin-left: 100px;
+}
+#account{
+    margin-left: 1700px;
+    margin-top: 1000px;
+
+}
