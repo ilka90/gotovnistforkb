@@ -1,27 +1,14 @@
 {% extends 'main_page/layout.html' %}
 
-{% block title %}{{ title }}{% endblock %}
+{% block title %}Новини з сайту{% endblock %}
 
 {% block content %}
 <div class="features">
-    <h1>{{ title }}</h1>
+    <h1>Новини з сайту</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit nostrum, quod enim ratione dolores, quo temporibus excepturi a corporis dicta adipisci blanditiis amet veniam culpa, et exercitationem. Tempora, modi minus.</p> 
     
     <button class="btn btn-warning">{% filter upper %}На сторінку про нас{% endfilter %}</button>   
     
-    
-    {% for el in values %}
-        {% if el == 'Hello' %}
-        <p>{{ el }}</p>
-        {% endif %}
-
-    {% endfor %}
-
-    {% for el in obj %}
-    <p>{{ el }}</p>
-
-    {% endfor %}
-
 
 
 </div>
